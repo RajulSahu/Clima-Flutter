@@ -9,7 +9,7 @@ class WeatherModel {
         "/data/2.5/weather",
         {
           'q': '$cityName',
-          'appid': 'ecb702f1fff242760c2113b06e645630',
+          'appid': 'Your_OpenWeather_AppId_Here',
           'units': 'metric'
         },
       ),
@@ -29,7 +29,7 @@ class WeatherModel {
         {
           'lat': '${location.latitude}',
           'lon': '${location.longitude}',
-          'appid': 'ecb702f1fff242760c2113b06e645630',
+          'appid': 'Your_OpenWeather_AppId_Here',
           'units': 'metric'
         },
       ),
